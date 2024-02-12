@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <link type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet" />
+    <title>{% block title %}Главная страница сайта{% endblock %}</title>
+  </head>
+
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
